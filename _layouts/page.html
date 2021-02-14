@@ -1,14 +1,474 @@
 ---
 layout: default
 ---
+
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"
+/>
+
 <article>
-
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
-
   <section>
-    {{ content }}
-  </section>
+    <div class="d-flex flex-row my-2">
+      <div class="w-75 mr-4">
+        <div class="d-flex flex-row my-2">
+          <div class="d-flex alert w-20 p-1">
+            <img
+              class="profile-picture align-self-center"
+              src="../assets/imgs/profile.jpg"
+            />
+          </div>
+          <div class="ml-4 bg-white w-75 mb-3 w-80 p-4">
+            <h1>Anastasya Shilova/h1>
+            <h4 class="text-primary">PhD in Biophysics</h4>
+            <h6 class="mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                />
+              </svg>
+              Cambridge, United Kingdom
+            </h6>
+            <h6 class="mt-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+                />
+              </svg>
+              anastasyashilova@gmail.com
+            </h6>
+          </div>
+        </div>
+        <!-- End of header card  -->
+        <div class="mx-2 my-4">
+          <h3 class="text-primary my-4">Profile</h3>
+          <p class="text-justify profile-text my-4">
+            An experienced researcher with in-depth knowledge in biophysics, structural biology, and data analysis who would like to pursue a career as an application specialist.
+            
+          </p>
+        </div>
+        <!-- End of profile card  -->
+        <!-- Start of employment details card  -->
+        <div class="mx-2 my-4">
+          <h3 class="text-primary my-4">Employment history</h3>
+          <!-- Start of employment  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-employment text-primary mt-1">
+                Oct 2020 - Present
+              </h5>
+              <h6 class="place-employment mt-2">Cambridge</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="title-employment font-weight-bold">
+                Web developer
+              </h3>
+              <p class="description-employment text-justify">
+                Freelance
+              </p>
+            </div>
+          </div>
+          <!-- End of employment  card  -->
+          <!-- Start of employment  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-employment text-primary mt-1">
+                Feb 2018 - Oct 2019
+              </h5>
+              <h6 class="place-employment mt-2">Lund</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="title-employment font-weight-bold">
+                Post-doctoral scientist at MAX IV Laboratory
+              </h3>
+              <p class="description-employment text-justify">
+                Project management (serial crystallography)
+User's support and beamline set up
+Technical training for users
+Determination of protein structures using X-rays
+Crystallization of proteins 
+Master and PhD students supervision
+Development of sample delivery techniques to perform serial crystallography using HVE-injector and fixed target supports
+              </p>
+            </div>
+          </div>
+          <!-- End of employment  card  -->
 
+          <!-- Start of employment  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-employment text-primary mt-1">
+                Sep 2017 - Mar 2018
+              </h5>
+              <h6 class="place-employment mt-2">Sao Carlos</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="title-employment font-weight-bold">
+                Post-doctoral fellow at University of Sao Paulo
+              </h3>
+              <p class="description-employment text-justify">
+                I worked with arboviruses proteins at the beginning of the
+                project, cloning the protein constructs I made in several
+                expression vectors and strains of bacteria. This project was a
+                continuation of the work I have done in the last 6 months of my
+                PhD.
+              </p>
+            </div>
+          </div>
+          <!-- End of employment  card  -->
+        </div>
+        <!-- End of employment details card  -->
+
+        <!-- Start of education details card  -->
+        <div class="mx-2 my-4">
+          <h3 class="text-primary my-4">Education history</h3>
+          <!-- Start of education  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-education text-primary mt-1">
+                Feb 2006 - Jun 2011
+              </h5>
+              <h6 class="place-education">Sao Carlos</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="font-weight-bold institution-education">
+                University of Sao Paulo
+              </h3>
+              <h5 class="title-education mt-2">Bachelor</h5>
+              <p class="description-education text-justify">
+                Bachelor in Physics with major in Biomolecular Physics.
+              </p>
+            </div>
+          </div>
+          <!-- End of education  card  -->
+          <!-- Start of education  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-education text-primary mt-1">
+                Jul 2011 - Jun 2013
+              </h5>
+              <h6 class="place-education">Sao Carlos</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="font-weight-bold institution-education">
+                University of Sao Paulo
+              </h3>
+              <h5 class="title-education mt-2">Master</h5>
+              <p class="description-education text-justify">
+                My project was the molecular modeling of
+                <i>X. albilineans</i> phosphopantetheinyl transferase protein
+                and analysis of its interaction proteins and substrates. I
+                developed a
+                <a
+                  href="https://github.com/gustalima/vitamin"
+                  class="font-weight-bold"
+                  >software</a
+                >
+                to help protein modeling and analysis using Modeller's routines.
+              </p>
+            </div>
+          </div>
+          <!-- End of education  card  -->
+          <!-- Start of education  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-education text-primary mt-1">
+                Jul 2013 - Sep 2017
+              </h5>
+              <h6 class="place-education">Sao Carlos</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="font-weight-bold institution-education">
+                University of Sao Paulo
+              </h3>
+              <h5 class="title-education mt-2">PhD</h5>
+              <p class="description-education text-justify">
+                My project involved experiments of structural biology of two
+                enzymes of the folate pathway, successfully obtaining of models
+                for both. I implemented in the laboratory the routine of
+                differential Scanning Fluorimetry assay to identify protein
+                stability conditions and quantify protein-ligand interaction. I
+                evaluated several docking software ensuring the best virtual
+                screening protocol was used. I designed a phenotypical assay for
+                compound screening. I reduced significantly time to design
+                primer for cloning developing a
+                <a
+                  href="https://gustalima.github.io/htpoligo/"
+                  class="font-weight-bold"
+                  >webapp</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- End of education  card  -->
+          <!-- Start of education  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-25">
+              <h5 class="time-education text-primary mt-1">
+                Mar 2017 - Aug 2017
+              </h5>
+              <h6 class="place-education">Edinburgh</h6>
+            </div>
+            <div class="w-75">
+              <h3 class="font-weight-bold institution-education">
+                University of Edinburgh
+              </h3>
+              <h5 class="title-education mt-2">PhD Exchange Student</h5>
+              <p class="description-education text-justify">
+                buring my internship at Prof Walkinshaw's laboratory, I focused
+                on the producing of respiratory chain genes knockouts for
+                <i>Mycobacterium smegmatis</i> using recombineering technique. I
+                analysed the inNuence of different carbon sources in bacterial
+                growth for each knockout, exploring alternatives routes to
+                glycolytic pathway.'
+              </p>
+            </div>
+          </div>
+          <!-- End of education  card  -->
+        </div>
+        <!-- End of education details card  -->
+
+        <!-- Start of Publications  card  -->
+
+        <div class="mx-2 my-4">
+          <h3 class="text-primary my-4">Publications</h3>
+          <a href="https://scholar.google.com/citations?user=PKXzy-8AAAAJ&hl=en"
+            >Google Scholar profile</a
+          >
+          <!-- Start of publication  card  -->
+          <div class="d-flex flex-row my-2">
+            <div class="w-100">
+              <p class="description-publication"></p>
+              <div id="bibtex_display"></div>
+            </div>
+          </div>
+          <!-- End of publications  card  -->
+
+          <!-- End of profile card  -->
+        </div>
+      </div>
+      <div class="d-flex flex-column w-25 ml-4">
+        <div class="w-100 right-panel-title mt-4">
+          <h3 class="text-primary my-4">Details</h3>
+          <h4 class="text-primary">Address</h4>
+          <p>Longstanton, Cambridgeshire</p>
+        </div>
+        <div class="w-100 right-panel-title mt-4">
+          <h4 class="text-primary">Date and place of birth</h4>
+          <p>March of 1987</p>
+          <p>Sao Paulo - Brazil</p>
+        </div>
+        <!-- Start of skill block -->
+
+        <div class="w-100 right-panel-title mt-4">
+          <h4 class="text-primary">Skills</h4>
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Scientific programming</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Protein crystallography</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Project management</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Bioinformatics</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Bioinformatics</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+          <!-- Start of skill entry -->
+          <div class="d-flex flex-column">
+            <div>Machine learning</div>
+            <div class="skill-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of skill entry -->
+        </div>
+        <!-- End of skill block -->
+
+        <!-- Start of language block -->
+
+        <div class="w-100 right-panel-title mt-4">
+          <h4 class="text-primary">Languages</h4>
+          <!-- Start of language entry -->
+          <div class="d-flex flex-column">
+            <div>Portuguese</div>
+            <div class="language-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of language entry -->
+          <!-- Start of language entry -->
+          <div class="d-flex flex-column">
+            <div>English</div>
+            <div class="language-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of language entry -->
+          <!-- Start of language entry -->
+          <div class="d-flex flex-column">
+            <div>Spanish</div>
+            <div class="language-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of language entry -->
+          <!-- Start of language entry -->
+          <div class="d-flex flex-column">
+            <div>Swedish</div>
+            <div class="language-level d-flex justify-content-between">
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-primary skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+              <div class="text-light-2 skill-circle">●</div>
+            </div>
+          </div>
+          <!-- End of language entry -->
+        </div>
+        <!-- End of language block -->
+      </div>
+    </div>
+
+    {% comment %} {{ content }} {% endcomment %}
+  </section>
 </article>
+
+<bibtex src="../assets/glima.bib">
+  <div class="group year" extra="ASC number">
+    <div class="group journal" extra="ASC string">
+      <div class="templates"></div>
+    </div>
+  </div>
+</bibtex>
