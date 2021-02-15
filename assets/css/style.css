@@ -38,13 +38,7 @@
 p {
   font-family: Roboto;
 }
-.text-primary {
-  /* font-family: Roboto Slab; */
-}
-.text-light-2 {
-  /* font-family: Roboto Slab; */
-  color: #8080809c;
-}
+
 .bibtexentry {
   text-align: justify !important;
   margin-bottom: 1rem !important;
@@ -61,4 +55,7 @@ p {
 }
 .profile-picture {
   margin: 0 auto;
+}
+.va-middle {
+  vertical-align: middle;
 }
