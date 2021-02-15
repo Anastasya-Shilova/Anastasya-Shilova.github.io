@@ -57,3 +57,6 @@ p {
   background-color: #3e1e54;
   color: white;
 }
+.profile-picture {
+  margin: 0 auto;
+}
