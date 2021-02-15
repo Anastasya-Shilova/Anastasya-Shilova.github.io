@@ -39,10 +39,10 @@ p {
   font-family: Roboto;
 }
 .text-primary {
-  font-family: Roboto Slab;
+  /* font-family: Roboto Slab; */
 }
 .text-light-2 {
-  font-family: Roboto Slab;
+  /* font-family: Roboto Slab; */
   color: #8080809c;
 }
 .bibtexentry {
@@ -52,4 +52,8 @@ p {
 }
 .skill-circle {
   font-size: 22px;
+}
+.left-panel-purple {
+  background-color: #3e1e54;
+  color: white;
 }

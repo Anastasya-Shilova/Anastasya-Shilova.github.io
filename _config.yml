@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gustavo Lima
-email: "gustavo.alvares.lima@gmail.com"
+title: Anastasya Shilova
+email: "anastasyashilova@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   X-ray Crystallographer
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-repository: "https://github.com/gustalima"
+repository: "https://github.com/anastasya-we"
 
 # Build settings
 plugins:
