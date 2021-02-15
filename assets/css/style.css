@@ -56,6 +56,8 @@ p {
 .left-panel-purple {
   background-color: #3e1e54;
   color: white;
+  padding-left: 4rem;
+  padding-right: 4em;
 }
 .profile-picture {
   margin: 0 auto;
